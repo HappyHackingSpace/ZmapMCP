@@ -1,6 +1,6 @@
 # ZMap MCP 
 
-A FastMCP wrapper for ZMap network scanner that provides a simple interface for scanning networks through a structured API.
+A FastMCP wrapper for ZMap, enabling subnet and port scans through natural language prompts in Claude Desktop using Model Context Protocol (MCP).
 
 ## Install
 ```
