@@ -26,7 +26,9 @@ A FastMCP wrapper for ZMap network scanner that provides a simple interface for 
 Start the FastMCP server:
 
 ```
+fastmcp install server.py
 python server.py
+Run Claude desktop
 ```
 
 ### Available Tools
@@ -37,22 +39,7 @@ The server exposes the following tools:
   - `target`: Target subnet in CIDR notation (e.g., "192.168.1.0/24")
   - `port`: Target port number to scan
 
-### Example
 
-```python
-from zmapsdk import ZMap
-
-zmap = ZMap()
-
-# Scan a subnet for a specific port
-results = zmap.scan(
-    target_port=80,
-    subnets=["192.168.1.0/24"],
-    bandwidth="1M"
-)
-
-print(results)
-```
 
 ## Contributing
 
